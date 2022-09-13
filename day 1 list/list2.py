@@ -1,0 +1,10 @@
+my_world=[1,2,3,"n","false",9,8,7,"s",7.7,2.2,"d","true",5.5]
+print(len(my_world))
+print(my_world[10])
+print(my_world[-6])
+print(my_world[4])
+print(my_world[3])
+print(my_world[2])
+print(my_world[13])
+print(my_world[-11])
+print(my_world[8])

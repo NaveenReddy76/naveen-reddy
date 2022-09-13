@@ -1,0 +1,11 @@
+my_world=[4,6,7,3,"true","x",9,8,"s","false",4.9,3.3,1.5,"false","n","g",1,4.3]
+print(my_world[::])
+print(my_world[0::])
+print(my_world[0::1])
+print(my_world[::1])
+print(my_world[2:5:9])
+print(my_world[:-2:])
+print(my_world[0:8])
+print(my_world[1:4:8])
+print(my_world[3:5:9])
+print(my_world[-1:-6:])
