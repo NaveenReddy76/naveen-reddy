@@ -31,4 +31,5 @@ print(len(jc))
 jc.update(["rubby","django"])
 print(jc)
 print(len(jc))
-
+jc.update(["kkkk",67])
+print(jc)

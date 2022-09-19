@@ -17,6 +17,7 @@ c.remove(98988)
 print(c)
 print(len(c))
 
+
 #ex3
 r={"name","keyboard","python","sql","java","c++","langague"}
 print(r)
