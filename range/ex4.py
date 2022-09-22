@@ -1,0 +1,10 @@
+nav=range(2,10000,10)
+print(tuple(nav))
+nav.__reversed__()
+print(nav)
+nav.start
+print(nav)
+nav.stop
+print(nav)
+nav.__len__()
+print(nav)

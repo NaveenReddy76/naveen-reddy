@@ -1,0 +1,16 @@
+n= range(2,107,3)
+print(list(n))
+n.__doc__
+print(n)
+n.count(2)
+print(n)
+n.index(2)
+print(n)
+n.__len__()
+print(n)
+n.__str__()
+print(n)
+n.__getitem__(2)
+print(n)
+n.__module__
+print(n)
