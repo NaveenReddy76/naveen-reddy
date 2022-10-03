@@ -1,0 +1,15 @@
+value="welecome to my_wrold solution"
+value_2="im coming to the collage"
+print(value)
+print(value_2)
+print(len(value))
+print(len(value_2))
+print(type(value))
+print(type(value_2))
+print(value[::-2])
+print(value[::3])
+print(value.removeprefix("my"))
+print(value_2.format("coming"))
+print(value_2.title())
+print(value.__getnewargs__())
+print(value.isupper())
