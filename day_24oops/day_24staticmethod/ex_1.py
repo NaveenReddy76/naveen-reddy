@@ -1,4 +1,4 @@
-class statics_method:
+class statics_method_ss:
     x=89
     @staticmethod
     def results():
@@ -6,15 +6,27 @@ class statics_method:
         second_results=821
         print(first_results)
         print(second_results)
-        print(x)
-        print(statics_method.x)
-        staticmethod.results()
-        staticmethod().results()
-
+        print(first_results+second_results)
+       # print(x)    # error
+        print(statics_method_ss.x)
+statics_method_ss.results()
 
 class addattion:
     def results(first,second):
         res=first+second
         addattion.results=staticmethod(addattion.results)
-        s=addattion.results(9,8)
-        print(s)
+        print(res)
+        #s=addattion.results(9,8)
+       # print(s)
+
+addattion.results(22,22)
+
+
+
+
+#
+def find_max(nums):
+    max_num = float("-inf")
+    for num in nums:
+        if num > max_num:
+            return max_num
